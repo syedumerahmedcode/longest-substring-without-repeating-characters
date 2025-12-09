@@ -21,5 +21,22 @@ public class App {
          */
         System.out.println("Hello, World!");
         Solution solution = new Solution();
+        String input = "abcabcbb";
+        int output = solution.lengthOfLongestSubstring(input);
+        System.out.println("The input is: " + input
+                + " and the longest substring with repeating charactgers has length: " + output);
+        System.out.println();
+
+        input = "bbbbb";
+        output = solution.lengthOfLongestSubstring(input);
+        System.out.println("The input is: " + input
+                + " and the longest substring with repeating charactgers has length: " + output);
+        System.out.println();
+
+        input = "pwwkew";
+        output = solution.lengthOfLongestSubstring(input);
+        System.out.println("The input is: " + input
+                + " and the longest substring with repeating charactgers has length: " + output);
+        System.out.println();
     }
 }
